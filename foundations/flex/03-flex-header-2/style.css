@@ -4,14 +4,26 @@ you'll learn about it later. */
 
 body {
   margin: 0;
-  background: #eee;
+  background: #202020;
   font-family: Besley, serif;
 }
 
 .header {
-  background: white;
-  border-bottom: 1px solid #ddd;
+  background: rgb(36, 36, 36);
+  border-bottom: 1px solid #000000;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 10px;
+}
+
+.left-section {
+  display: flex;
+  margin: 0 auto 0 0;
+}
+
+.right-section {
+  display: flex;
+  gap: 10px;
 }
 
 .profile-image {
@@ -35,6 +47,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 10px;
 }
 
 a {
@@ -45,4 +58,6 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 25px;
 }
